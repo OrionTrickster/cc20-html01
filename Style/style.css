@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+table, tr, th, td {
+    border-collapse: collapse;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 4px; 
+    text-align: center;
+}
+
+td {
+    background-color: rgb(255, 255, 255);
+    padding-right: 30px; 
+    text-align: left;
+    font-size: 14px;
+} 
+.workheader {
+    background-color: rgb(151, 185, 214);
+    padding-right: 30px; 
+    text-align: left;
+    font-size: 14px;
+}
+form {
+  border: 1px solid gray;
+  width: 600px;
+  border-radius: 10px;
+  padding: 30px;
+
+}
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border-radius: 9px;
+}
+.button {
+  background-color: rgb(151, 185, 214);
+  color: white;
+  padding: 10px;
+  border: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  margin-top: 20px;
+}
+ textarea {
+  height: 100px;
+  resize: none;
+  box-sizing: border-box;
+ }
+ label {
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(17, 113, 197);
+  padding-top: 12px;
+  display: block;
+  text-align: left;
+}
+.contactform {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+}
+.enteryourinfo {
+  padding-top: 0px;
+  padding-bottom: 10px;
+}
